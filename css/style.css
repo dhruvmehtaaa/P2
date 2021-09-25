@@ -18,6 +18,10 @@
   background:var(--green);
   color:#fff;
 }
+.neww{
+  background:var(--green);
+  font-family: 'Courier New', Courier, monospace;
+}
 
 html{
   font-size: 62.5%;
@@ -89,6 +93,7 @@ section{
 .header-1 a:hover{
   color:yellow;
 }
+
 
 .header-2 .logo{
   font-weight: bolder;

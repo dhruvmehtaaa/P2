@@ -13,7 +13,7 @@ if (!isset($_SESSION['username'])) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>complete responsive plant selling website design tutorial</title>
+    <title>LEAF NOW</title>
 
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
 
@@ -27,38 +27,28 @@ if (!isset($_SESSION['username'])) {
 <body>
     
 <!-- header section starts  -->
+<center>
+<h1>
 
+    <p class="neww">
+    <q>Save Plants Initiative</q>
+</p>
+
+</h1>
+</center>
 <header>
 
     <div class="header-1">
-        <!--
-        <div class="share">
-            <span> follow us : </span>
-            <a href="#" class="fab fa-facebook-f"></a>
-            <a href="#" class="fab fa-twitter"></a>
-            <a href="#" class="fab fa-instagram"></a>
-            <a href="#" class="fab fa-linkedin"></a>
-        </div>
--->
+        
         <div class="call">
             
             <a href="logout.php"  style="text-align: right;">Logout</a>
+            
+            <a href="carter.html" target="_blank">Proceed To Cart</a>
         </div>
     
     </div>
-<!--
-    <div class="header-2">
 
-        <a href="#" class="logo"> <i class="fas fa-seedling"></i> LOGO </a>
-        
-        <form action="" class="search-bar-container">
-            <input type="search" id="search-bar" placeholder="search here...">
-            <label for="search-bar" class="fas fa-search"></label>
-        </form>
-    
-
-    </div>
--->
     <div class="header-3">
 
         <div id="menu-bar" class="fas fa-bars"></div>
@@ -353,46 +343,7 @@ if (!isset($_SESSION['username'])) {
 
 </section>
 
-<!-- product section ends -->
 
-<!-- .icons section starts  -->
-<!--
-<section class="icons-container">
-
-    <div class="icon">
-        <img src="images/icon1.png" alt="">
-        <div class="content">
-            <h3>free shipping</h3>
-            <p>Free shipping on order</p>
-        </div>
-    </div>
-    <div class="icon">
-        <img src="images/icon2.png" alt="">
-        <div class="content">
-            <h3>100% Money Back</h3>
-            <p>You’ve 30 days to Return</p>
-        </div>
-    </div>
-    <div class="icon">
-        <img src="images/icon3.png" alt="">
-        <div class="content">
-            <h3>Payment Secure</h3>
-            <p>100% secure payment</p>
-        </div>
-    </div>
-    <div class="icon">
-        <img src="images/icon4.png" alt="">
-        <div class="content">
-            <h3>Support 24/7</h3>
-            <p>Contact us anytime</p>
-        </div>
-    </div>
-
-</section>-->
-
-<!-- .icons section ends -->
-
-<!-- deal section starts  -->
 
 <section class="deal" id="deal">
 
@@ -442,8 +393,6 @@ if (!isset($_SESSION['username'])) {
 
 <div class="row">
 
-    <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15076.895920873054!2d72.83196972644954!3d19.141670564195152!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b63aceef0c69%3A0x2aa80cf2287dfa3b!2sJogeshwari%20West%2C%20Mumbai%2C%20Maharashtra%20400047!5e0!3m2!1sen!2sin!4v1621609263469!5m2!1sen!2sin" allowfullscreen="" loading="lazy"></iframe>
-
     <form action="">
 
         <div class="inputBox">
@@ -478,34 +427,7 @@ if (!isset($_SESSION['username'])) {
 <section class="footer">
 
     <div class="box-container">
-
-        <div class="box">
-            <h3>about us</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo hic eum veniam aut nisi. Libero autem nemo amet recusandae eveniet?</p>
-        </div>
-        <div class="box">
-            <h3>branch locations</h3>
-            <a href="#">india</a>
-            <a href="#">USA</a>
-            <a href="#">japan</a>
-            <a href="#">france</a>
-        </div>
-        <div class="box">
-            <h3>quick links</h3>
-            <a href="#">home</a>
-            <a href="#">category</a>
-            <a href="#">product</a>
-            <a href="#">deal</a>
-            <a href="#">contact</a>
-        </div>
-        <div class="box">
-            <h3>follow us</h3>
-            <a href="#">facebook</a>
-            <a href="#">twitter</a>
-            <a href="#">instagram</a>
-            <a href="#">linked</a>
-        </div>
-
+        
     </div>
 
     <!--<h1 class="credit"> created by <span>  </span> | all rights reserved! </h1>-->
